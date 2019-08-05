@@ -1,0 +1,13 @@
+.board-row:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+.board-row> div {
+    width: 80px;
+    height: 80px;
+    background-size: 100%;
+    border: 1px solid #84e3f9;
+}
+
+
