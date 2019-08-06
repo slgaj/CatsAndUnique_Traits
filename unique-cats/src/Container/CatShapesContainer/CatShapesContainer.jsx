@@ -50,8 +50,11 @@ class CatShapesContainer extends React.Component {
       arraySq: this.state.arraySq,
       ctr: this.state.ctr + 1,
       calcWin: this.state.calcWin
-    });
-    if (this.state.ctr === 11) {
+    });   
+  }
+
+  componentDidUpdate() {   
+    if (this.state.ctr >11) {
       let flag = calculateWinner(this.state.calcWin);
       if (flag) alert("YOU WIN");
       else alert("YOU LOSE");
