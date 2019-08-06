@@ -11,8 +11,7 @@ class CatShapes extends React.PureComponent {
         size={size}
         class={"catHome"}
         onClick={() => this.props.clickCopy(key)}
-        imageName={bgCat}
-        catH={"auto"}
+        imageName={bgCat}        
       />
     );
   }
