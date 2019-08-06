@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from 'prop-types';
 
 import cat1 from "../../assets/Images/cat_1.png";
 import cat2 from "../../assets/Images/cat_2.png";

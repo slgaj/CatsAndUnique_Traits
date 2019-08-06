@@ -1,5 +1,6 @@
 import React from "react";
 import "./Button.scss";
+import PropTypes from 'prop-types';
 
 export default function Button(props) {
   return (
@@ -17,4 +18,17 @@ export default function Button(props) {
     </div>
   );
 }
+
+Button.propTypes = {
+  value: PropTypes.number,
+  size: PropTypes.number,
+  bgSize:PropTypes.number,
+  imageName: PropTypes.any,
+  onClick: PropTypes.func,
+  children:  PropTypes.any
+};
+
+Button.defaultProps = {
+  bgSize: 50,
+};
 

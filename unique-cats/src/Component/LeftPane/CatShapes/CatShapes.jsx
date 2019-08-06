@@ -1,6 +1,7 @@
 import React from "react";
 import Button from "../../Button/Button";
 import "./CatShapes.scss";
+import PropTypes from 'prop-types';
 
 class CatShapes extends React.PureComponent {
   renderCatButton(key, bgCat, size) {
@@ -43,5 +44,9 @@ class CatShapes extends React.PureComponent {
     );
   }
 }
+CatShapes.propTypes = {
+  onClick: PropTypes.func,
+  catArr: PropTypes.array
+};
 
 export default CatShapes;
