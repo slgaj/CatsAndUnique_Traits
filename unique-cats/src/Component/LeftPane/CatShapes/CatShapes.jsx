@@ -21,7 +21,7 @@ class CatShapes extends React.PureComponent {
     const catArr = this.props.catArray;
     const defaultSize = 35;
     return (
-      <div className="cat-room">
+      <div className={`cat-room ${this.props.classDerived}`}>
         <div className="cat-row row">
           {this.renderCatButton(0, catArr[0], defaultSize)}
           {this.renderCatButton(1, catArr[1], defaultSize)}

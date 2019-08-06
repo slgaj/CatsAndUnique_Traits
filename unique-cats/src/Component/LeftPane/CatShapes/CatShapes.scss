@@ -3,3 +3,8 @@
     flex-direction: row; 
     flex-wrap: wrap;  
 }
+
+.disabledCatRoom {
+    pointer-events: none;
+    opacity: 0.2;
+}

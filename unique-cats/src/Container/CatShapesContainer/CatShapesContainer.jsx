@@ -70,18 +70,22 @@ class CatShapesContainer extends React.Component {
 
   render() {
     return (
+      <div>
       <div className="main-wrapper">
-        <CatShapes
+        <CatShapes classDerived={`${this.state.ctr>11 ? "disabledCatRoom" : " "}`}
           clickCopy={this.handleClick}
           catArray={this.state.catArray}
         />
-        <CatsGrid sizeOfCat={this.state.calcWin} arraySq={this.state.arraySq} />
+        <CatsGrid sizeOfCat={this.state.calcWin} arraySq={this.state.arraySq} />      
 
         <Button class={"reset-btn"} onClick={this.resetGame}>
           Reset
         </Button>
+        
       </div>
-    );
+      <span  class="info">Please note, after last cell of Cat Grid is filled up, then Cat-room is locked. You can unlock it by reset-button</span>
+      </div>
+      );
   }
 }
 function calculateWinner(squares) {
