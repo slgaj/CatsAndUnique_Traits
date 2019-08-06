@@ -1,4 +1,4 @@
-.catHome{
+.catHome {
     background-repeat:no-repeat;      
     background-size:100%;
     background-position-y: bottom;    
@@ -6,8 +6,7 @@
     cursor: pointer;
     border: none;
     padding: 0 20px;
-    margin:20px;
-    
+    margin:20px;    
 }
 
 .square {
@@ -26,5 +25,15 @@
 }
 
 .square:focus {
+    outline: none;
+}
+
+.reset-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #fff;
+    border: 2px solid #690e63;
+    border-radius: 10px;
+    cursor: pointer;
     outline: none;
 }
