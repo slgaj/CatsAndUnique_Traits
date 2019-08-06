@@ -6,7 +6,7 @@
 .board-row > div {
     width: 58px;
     height: 53px;
-    background-size: 50%;
+    background-size: 50%;    
     background-position: center;
     background-repeat: no-repeat;
     border: 1px solid #84e3f9;

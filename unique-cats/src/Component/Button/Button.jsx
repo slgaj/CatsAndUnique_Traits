@@ -8,7 +8,8 @@ export default function Button(props) {
       value={props.value}
       style={{
         backgroundImage: `url(${props.imageName})`,
-        minWidth: `${props.size}px`
+        minWidth: `${props.size}px`,
+        backgroundSize: `${props.bgSize}%`
       }}
       onClick={props.onClick}
     >
@@ -16,3 +17,4 @@ export default function Button(props) {
     </div>
   );
 }
+

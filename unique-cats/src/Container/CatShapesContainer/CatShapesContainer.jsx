@@ -36,7 +36,7 @@ class CatShapesContainer extends React.Component {
         cat12
       ],
       arraySq: Array(12).fill(null),
-      calc: Array(12).fill(null),
+      calcWin: Array(12).fill(null),
       ctr: 0
     };
     this.handleClick = this.handleClick.bind(this);
@@ -44,14 +44,14 @@ class CatShapesContainer extends React.Component {
   }
   handleClick(i) {
     this.state.arraySq[this.state.ctr] = this.state.catArray[i];
-    this.state.calc[this.state.ctr] = i;
+    this.state.calcWin[this.state.ctr] = i;
     this.setState({
       arraySq: this.state.arraySq,
       ctr: this.state.ctr + 1,
-      calc: this.state.calc
+      calcWin: this.state.calcWin
     });
     if (this.state.ctr === 11) {
-      let flag = calculateWinner(this.state.calc);
+      let flag = calculateWinner(this.state.calcWin);
       if (flag) alert("YOU WIN");
       else alert("YOU LOSE");
     }
@@ -59,8 +59,8 @@ class CatShapesContainer extends React.Component {
   resetGame() {
     this.setState({
       arraySq: Array(12).fill(null),
-      calc: Array(12).fill(null),
-      ctr: 0
+      calcWin: Array(12).fill(null),
+      ctr: 0      
     });
   }
 
@@ -71,7 +71,8 @@ class CatShapesContainer extends React.Component {
           clickCopy={this.handleClick}
           catArray={this.state.catArray}
         />
-        <CatsGrid arraySq={this.state.arraySq} />
+        <CatsGrid sizeOfCat={this.state.calcWin} arraySq={this.state.arraySq} />
+
         <Button class={"reset-btn"} onClick={this.resetGame}>
           Reset
         </Button>
