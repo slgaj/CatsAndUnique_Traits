@@ -14,7 +14,7 @@ import cat11 from "../../assets/Images/cat_11.png";
 import cat12 from "../../assets/Images/cat_12.png";
 import CatShapes from "../../Component/LeftPane/CatShapes/CatShapes.jsx";
 import CatsGrid from "../../Component/RightPane/CatsGrid/CatsGrid";
-import "./CatShapesContainer.css";
+import "./CatShapesContainer.scss";
 import Button from "../../Component/Button/Button";
 
 class CatShapesContainer extends React.Component {

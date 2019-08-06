@@ -1,0 +1,14 @@
+.main-wrapper {    
+    padding: 20px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;  
+    align-items: center;
+    justify-content: space-evenly;  
+
+    @media (max-width:414px) {
+        flex-direction: column
+    }
+}

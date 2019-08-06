@@ -6,7 +6,17 @@
     cursor: pointer;
     border: none;
     padding: 0 20px;
-    margin:20px;    
+    margin:20px; 
+    
+    @media (min-width:1024px) {
+             
+        background-size:56%;
+        height: 104px;
+        width: 100px;         
+        margin: 5px 10px;
+        background-position: center;   
+    
+    }
 }
 
 .square {
@@ -22,10 +32,10 @@
     padding: 0;
     text-align: center;
     width: 34px;
-}
 
-.square:focus {
-    outline: none;
+    &:focus {
+        outline: none;
+    }
 }
 
 .reset-btn {
