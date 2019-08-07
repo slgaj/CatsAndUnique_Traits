@@ -1,6 +1,4 @@
 import React from "react";
-import PropTypes from 'prop-types';
-
 import cat1 from "../../assets/Images/cat_1.png";
 import cat2 from "../../assets/Images/cat_2.png";
 import cat3 from "../../assets/Images/cat_3.png";
@@ -83,7 +81,7 @@ class CatShapesContainer extends React.Component {
         </Button>
         
       </div>
-      <span  class="info">Please note, after last cell of Cat Grid is filled up, then Cat-room is locked. You can unlock it by reset-button</span>
+      <span  className="info">Please note, after last cell of Cat Grid is filled up, then Cat-room is locked. You can unlock it by reset-button</span>
       </div>
       );
   }
