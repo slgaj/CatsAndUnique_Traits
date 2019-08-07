@@ -2,9 +2,9 @@ import React from 'react';
 import { shallow } from 'enzyme';
 import renderer from 'react-test-renderer';
 
-import Button from './Button';
+import Button from '../Button';
 
-import '../../setupTests';
+import '../../../setupTests';
 
 const fnClick = jest.fn();
 describe("MyComponent", () => {

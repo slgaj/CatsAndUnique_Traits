@@ -1,11 +1,18 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 import renderer from 'react-test-renderer';
-import "../../setupTests";
-import CatShapesContainer from './CatShapesContainer';
-import Button from '../../Component/Button/Button';
+import "../../../setupTests";
+import CatShapesContainer, { calculateWinner } from '../CatShapesContainer';
+
+import Button from '../../../Component/Button/Button';
+
 
 const fnClick = jest.fn();
+
+var tempArray= ["1","2","3","4","5","6","7","8","9","10","11","12"];
+const arr = new Array(12);
+arr.fill(null);
+
 
 describe('component', () => {
     it('Proper message rendereing', () => {
@@ -18,10 +25,19 @@ describe('component', () => {
         const wrapper = shallow(<CatShapesContainer />);
         const text = wrapper.find('span').text();
         expect(text).not.toBe('ou can unlock it by reset-button');
+    }); 
+    
+    it(' Winner or Loser - return boolean value', () => {
+        expect(calculateWinner(tempArray)).toEqual(true);
+        expect(calculateWinner(tempArray)).not.toEqual(false);
+      
     });
+
+    it("should render my component", () => {
+        const wrapper = shallow(<CatShapesContainer />);
+        wrapper.setState({ catArray: tempArray,arraySq:arr,calcWin:arr,ctr:0 });
+      });    
 });
-
-
 
 it('matches the snapshot', () => {
     const tree = renderer.create(<CatShapesContainer/>).toJSON();
