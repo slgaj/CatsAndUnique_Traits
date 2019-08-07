@@ -1,0 +1,151 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MyComponent should render my component 1`] = `ShallowWrapper {}`;
+
+exports[`matches the snapshot 1`] = `
+<div
+  className="play-room"
+>
+  <header
+    className="heading"
+  >
+    CATS GRID
+  </header>
+  <div
+    className="board-row row"
+  >
+    <div
+      className="square"
+      style={
+        Object {
+          "backgroundImage": "url(1)",
+          "backgroundSize": "50%",
+          "minWidth": "undefinedpx",
+        }
+      }
+    />
+    <div
+      className="square"
+      style={
+        Object {
+          "backgroundImage": "url(2)",
+          "backgroundSize": "50%",
+          "minWidth": "undefinedpx",
+        }
+      }
+    />
+    <div
+      className="square"
+      style={
+        Object {
+          "backgroundImage": "url(3)",
+          "backgroundSize": "50%",
+          "minWidth": "undefinedpx",
+        }
+      }
+    />
+  </div>
+  <div
+    className="board-row row"
+  >
+    <div
+      className="square"
+      style={
+        Object {
+          "backgroundImage": "url(4)",
+          "backgroundSize": "50%",
+          "minWidth": "undefinedpx",
+        }
+      }
+    />
+    <div
+      className="square"
+      style={
+        Object {
+          "backgroundImage": "url(5)",
+          "backgroundSize": "50%",
+          "minWidth": "undefinedpx",
+        }
+      }
+    />
+    <div
+      className="square"
+      style={
+        Object {
+          "backgroundImage": "url(6)",
+          "backgroundSize": "50%",
+          "minWidth": "undefinedpx",
+        }
+      }
+    />
+  </div>
+  <div
+    className="board-row row"
+  >
+    <div
+      className="square"
+      style={
+        Object {
+          "backgroundImage": "url(7)",
+          "backgroundSize": "50%",
+          "minWidth": "undefinedpx",
+        }
+      }
+    />
+    <div
+      className="square"
+      style={
+        Object {
+          "backgroundImage": "url(8)",
+          "backgroundSize": "50%",
+          "minWidth": "undefinedpx",
+        }
+      }
+    />
+    <div
+      className="square"
+      style={
+        Object {
+          "backgroundImage": "url(9)",
+          "backgroundSize": "50%",
+          "minWidth": "undefinedpx",
+        }
+      }
+    />
+  </div>
+  <div
+    className="board-row row"
+  >
+    <div
+      className="square"
+      style={
+        Object {
+          "backgroundImage": "url(10)",
+          "backgroundSize": "50%",
+          "minWidth": "undefinedpx",
+        }
+      }
+    />
+    <div
+      className="square"
+      style={
+        Object {
+          "backgroundImage": "url(11)",
+          "backgroundSize": "50%",
+          "minWidth": "undefinedpx",
+        }
+      }
+    />
+    <div
+      className="square"
+      style={
+        Object {
+          "backgroundImage": "url(12)",
+          "backgroundSize": "50%",
+          "minWidth": "undefinedpx",
+        }
+      }
+    />
+  </div>
+</div>
+`;

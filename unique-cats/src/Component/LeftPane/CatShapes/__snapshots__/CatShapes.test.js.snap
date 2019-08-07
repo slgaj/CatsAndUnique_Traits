@@ -1,0 +1,164 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches the snapshot 1`] = `
+<div
+  className="cat-room undefined"
+>
+  <div
+    className="cat-row row"
+  >
+    <div
+      className="catHome"
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundImage": "url(1)",
+          "backgroundSize": "undefined%",
+          "minWidth": "35px",
+        }
+      }
+      value={0}
+    />
+    <div
+      className="catHome"
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundImage": "url(2)",
+          "backgroundSize": "undefined%",
+          "minWidth": "35px",
+        }
+      }
+      value={1}
+    />
+    <div
+      className="catHome"
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundImage": "url(3)",
+          "backgroundSize": "undefined%",
+          "minWidth": "35px",
+        }
+      }
+      value={2}
+    />
+    <div
+      className="catHome"
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundImage": "url(4)",
+          "backgroundSize": "undefined%",
+          "minWidth": "25px",
+        }
+      }
+      value={3}
+    />
+  </div>
+  <div
+    className="cat-row row"
+  >
+    <div
+      className="catHome"
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundImage": "url(5)",
+          "backgroundSize": "undefined%",
+          "minWidth": "35px",
+        }
+      }
+      value={4}
+    />
+    <div
+      className="catHome"
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundImage": "url(6)",
+          "backgroundSize": "undefined%",
+          "minWidth": "35px",
+        }
+      }
+      value={5}
+    />
+    <div
+      className="catHome"
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundImage": "url(7)",
+          "backgroundSize": "undefined%",
+          "minWidth": "20px",
+        }
+      }
+      value={6}
+    />
+    <div
+      className="catHome"
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundImage": "url(8)",
+          "backgroundSize": "undefined%",
+          "minWidth": "55px",
+        }
+      }
+      value={7}
+    />
+  </div>
+  <div
+    className="cat-row row"
+  >
+    <div
+      className="catHome"
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundImage": "url(9)",
+          "backgroundSize": "undefined%",
+          "minWidth": "35px",
+        }
+      }
+      value={8}
+    />
+    <div
+      className="catHome"
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundImage": "url(10)",
+          "backgroundSize": "undefined%",
+          "minWidth": "35px",
+        }
+      }
+      value={9}
+    />
+    <div
+      className="catHome"
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundImage": "url(11)",
+          "backgroundSize": "undefined%",
+          "minWidth": "35px",
+        }
+      }
+      value={10}
+    />
+    <div
+      className="catHome"
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundImage": "url(12)",
+          "backgroundSize": "undefined%",
+          "minWidth": "35px",
+        }
+      }
+      value={11}
+    />
+  </div>
+</div>
+`;

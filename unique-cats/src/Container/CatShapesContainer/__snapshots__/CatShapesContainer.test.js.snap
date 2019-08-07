@@ -1,0 +1,333 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches the snapshot 1`] = `
+<div>
+  <div
+    className="main-wrapper"
+  >
+    <div
+      className="cat-room  "
+    >
+      <div
+        className="cat-row row"
+      >
+        <div
+          className="catHome"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundImage": "url(cat_1.png)",
+              "backgroundSize": "undefined%",
+              "minWidth": "35px",
+            }
+          }
+          value={0}
+        />
+        <div
+          className="catHome"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundImage": "url(cat_2.png)",
+              "backgroundSize": "undefined%",
+              "minWidth": "35px",
+            }
+          }
+          value={1}
+        />
+        <div
+          className="catHome"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundImage": "url(cat_3.png)",
+              "backgroundSize": "undefined%",
+              "minWidth": "35px",
+            }
+          }
+          value={2}
+        />
+        <div
+          className="catHome"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundImage": "url(cat_4.png)",
+              "backgroundSize": "undefined%",
+              "minWidth": "25px",
+            }
+          }
+          value={3}
+        />
+      </div>
+      <div
+        className="cat-row row"
+      >
+        <div
+          className="catHome"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundImage": "url(cat_5.png)",
+              "backgroundSize": "undefined%",
+              "minWidth": "35px",
+            }
+          }
+          value={4}
+        />
+        <div
+          className="catHome"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundImage": "url(cat_6.png)",
+              "backgroundSize": "undefined%",
+              "minWidth": "35px",
+            }
+          }
+          value={5}
+        />
+        <div
+          className="catHome"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundImage": "url(cat_7.png)",
+              "backgroundSize": "undefined%",
+              "minWidth": "20px",
+            }
+          }
+          value={6}
+        />
+        <div
+          className="catHome"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundImage": "url(cat_8.png)",
+              "backgroundSize": "undefined%",
+              "minWidth": "55px",
+            }
+          }
+          value={7}
+        />
+      </div>
+      <div
+        className="cat-row row"
+      >
+        <div
+          className="catHome"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundImage": "url(cat_9.png)",
+              "backgroundSize": "undefined%",
+              "minWidth": "35px",
+            }
+          }
+          value={8}
+        />
+        <div
+          className="catHome"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundImage": "url(cat_10.png)",
+              "backgroundSize": "undefined%",
+              "minWidth": "35px",
+            }
+          }
+          value={9}
+        />
+        <div
+          className="catHome"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundImage": "url(cat_11.png)",
+              "backgroundSize": "undefined%",
+              "minWidth": "35px",
+            }
+          }
+          value={10}
+        />
+        <div
+          className="catHome"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundImage": "url(cat_12.png)",
+              "backgroundSize": "undefined%",
+              "minWidth": "35px",
+            }
+          }
+          value={11}
+        />
+      </div>
+    </div>
+    <div
+      className="play-room"
+    >
+      <header
+        className="heading"
+      >
+        CATS GRID
+      </header>
+      <div
+        className="board-row row"
+      >
+        <div
+          className="square"
+          style={
+            Object {
+              "backgroundImage": "url(null)",
+              "backgroundSize": "50%",
+              "minWidth": "undefinedpx",
+            }
+          }
+        />
+        <div
+          className="square"
+          style={
+            Object {
+              "backgroundImage": "url(null)",
+              "backgroundSize": "50%",
+              "minWidth": "undefinedpx",
+            }
+          }
+        />
+        <div
+          className="square"
+          style={
+            Object {
+              "backgroundImage": "url(null)",
+              "backgroundSize": "50%",
+              "minWidth": "undefinedpx",
+            }
+          }
+        />
+      </div>
+      <div
+        className="board-row row"
+      >
+        <div
+          className="square"
+          style={
+            Object {
+              "backgroundImage": "url(null)",
+              "backgroundSize": "50%",
+              "minWidth": "undefinedpx",
+            }
+          }
+        />
+        <div
+          className="square"
+          style={
+            Object {
+              "backgroundImage": "url(null)",
+              "backgroundSize": "50%",
+              "minWidth": "undefinedpx",
+            }
+          }
+        />
+        <div
+          className="square"
+          style={
+            Object {
+              "backgroundImage": "url(null)",
+              "backgroundSize": "50%",
+              "minWidth": "undefinedpx",
+            }
+          }
+        />
+      </div>
+      <div
+        className="board-row row"
+      >
+        <div
+          className="square"
+          style={
+            Object {
+              "backgroundImage": "url(null)",
+              "backgroundSize": "50%",
+              "minWidth": "undefinedpx",
+            }
+          }
+        />
+        <div
+          className="square"
+          style={
+            Object {
+              "backgroundImage": "url(null)",
+              "backgroundSize": "50%",
+              "minWidth": "undefinedpx",
+            }
+          }
+        />
+        <div
+          className="square"
+          style={
+            Object {
+              "backgroundImage": "url(null)",
+              "backgroundSize": "50%",
+              "minWidth": "undefinedpx",
+            }
+          }
+        />
+      </div>
+      <div
+        className="board-row row"
+      >
+        <div
+          className="square"
+          style={
+            Object {
+              "backgroundImage": "url(null)",
+              "backgroundSize": "50%",
+              "minWidth": "undefinedpx",
+            }
+          }
+        />
+        <div
+          className="square"
+          style={
+            Object {
+              "backgroundImage": "url(null)",
+              "backgroundSize": "50%",
+              "minWidth": "undefinedpx",
+            }
+          }
+        />
+        <div
+          className="square"
+          style={
+            Object {
+              "backgroundImage": "url(null)",
+              "backgroundSize": "50%",
+              "minWidth": "undefinedpx",
+            }
+          }
+        />
+      </div>
+    </div>
+    <div
+      className="reset-btn"
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundImage": "url(undefined)",
+          "backgroundSize": "undefined%",
+          "minWidth": "undefinedpx",
+        }
+      }
+    >
+      Reset
+    </div>
+  </div>
+  <span
+    class="info"
+  >
+    Please note, after last cell of Cat Grid is filled up, then Cat-room is locked. You can unlock it by reset-button
+  </span>
+</div>
+`;
