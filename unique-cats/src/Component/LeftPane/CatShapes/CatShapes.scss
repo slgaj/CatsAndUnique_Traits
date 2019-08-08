@@ -1,7 +1,9 @@
+@import '../../../assets/GlobalCss/global.scss';
+
 .cat-row {
-    display:flex;
-    flex-direction: row; 
-    flex-wrap: wrap;  
+    display:$flex;
+    flex-direction: $direction-row; 
+    flex-wrap: $wrap;  
 }
 
 .disabledCatRoom {

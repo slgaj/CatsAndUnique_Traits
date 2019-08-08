@@ -1,49 +1,32 @@
+@import '../../assets/GlobalCss/global.scss';
+
 .catHome {
-    background-repeat:no-repeat;      
-    background-size:100%;
+    background-repeat: $background-repeat-none;      
+    background-size: 100%;
     background-position-y: bottom;    
     height: 143px;    
-    cursor: pointer;
-    border: none;
-    padding: 0 20px;
-    margin:20px; 
+    cursor: $pointer;
+    border: $border-zero;
+    padding: 0 $p20;
+    margin: $m20; 
     
     @media (min-width:1024px) {
              
-        background-size:56%;
+        background-size: 56%;
         height: 104px;
         width: 100px;         
-        margin: 5px 10px;
-        background-position: center;   
+        margin: 5px $m10;
+        background-position: $pos-center;   
     
-    }
-}
-
-.square {
-    background: #fff;
-    border: 1px solid #999;
-    float: left;
-    font-size: 24px;
-    font-weight: bold;
-    line-height: 34px;
-    height: 34px;
-    margin-right: -1px;
-    margin-top: -1px;
-    padding: 0;
-    text-align: center;
-    width: 34px;
-
-    &:focus {
-        outline: none;
     }
 }
 
 .reset-btn {
-    margin-top: 20px;
-    padding: 10px 20px;
-    background: #fff;
+    margin-top: $m20;
+    padding: $p10 $p20;
+    background: $serene-white;
     border: 2px solid #690e63;
     border-radius: 10px;
-    cursor: pointer;
-    outline: none;
+    cursor: $pointer;
+    outline: $border-zero;
 }

@@ -1,3 +1,5 @@
+@import '../../../assets/GlobalCss/global.scss';
+
 .board-row:after {
     clear: both;
     content: "";
@@ -7,11 +9,11 @@
     width: 58px;
     height: 53px;
     background-size: 50%;    
-    background-position: center;
-    background-repeat: no-repeat;
+    background-position: $pos-center;
+    background-repeat: $background-repeat-none;
     border: 1px solid #84e3f9;
 }
 .heading {
-    margin-bottom:10px;
-    font-weight:600;
+    margin-bottom: $m10;
+    font-weight: 600;
 }

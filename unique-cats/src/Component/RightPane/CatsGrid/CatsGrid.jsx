@@ -7,9 +7,9 @@ class CatsGrid extends React.Component {
 
   renderSquare(i, imgPath) {
     if(i === 0 || i === 1|| i === 2 ||i === 7)
-      return <Button bgSize={87} class="square" imageName={imgPath} />;
+      return <Button bgSize={87} imageName={imgPath} />;
     else
-      return <Button bgSize={50} class="square" imageName={imgPath} />;
+      return <Button bgSize={50} imageName={imgPath} />;
   }
   
   render() {

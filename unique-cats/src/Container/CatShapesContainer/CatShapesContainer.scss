@@ -1,22 +1,24 @@
+@import '../../assets/GlobalCss/global.scss';
+
 .main-wrapper {    
-    padding: 20px;
+    padding: $p20;
     width: 100%;
     height: auto;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;  
+    display: $flex;
+    flex-direction: $direction-row;
+    flex-wrap: $wrap;  
     align-items: center;
     justify-content: space-evenly;  
 
     @media (max-width:414px) {
-        flex-direction: column
+        flex-direction: $direction-col
     }
 }
 
 .info {
     font-size: 16px;
     display: inline-block;
-    padding: 10px 40px;
+    padding: $p10 40px;
     color: #044b14;
-    margin: 10px 0;
+    margin: $m10 0;
 }
